@@ -29,6 +29,7 @@
         <mysql-connector.version>8.0.33</mysql-connector.version>
         <commons-lang3.version>3.14.0</commons-lang3.version>
         <mybatis-spring-boot.version>3.0.3</mybatis-spring-boot.version>
+        <dubbo-spring-boot.version>3.2.9</dubbo-spring-boot.version>
 
         <junit.version>4.13.2</junit.version>
     </properties>
@@ -81,6 +82,11 @@
                 <groupId>org.mybatis.spring.boot</groupId>
                 <artifactId>mybatis-spring-boot-starter</artifactId>
                 <version>${mybatis-spring-boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-spring-boot-starter</artifactId>
+                <version>${dubbo-spring-boot.version}</version>
             </dependency>
 
             <dependency>
