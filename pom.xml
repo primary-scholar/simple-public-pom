@@ -28,6 +28,8 @@
 
         <mysql-connector.version>8.0.33</mysql-connector.version>
         <commons-lang3.version>3.14.0</commons-lang3.version>
+
+        <junit.version>4.13.2</junit.version>
     </properties>
 
     <dependencyManagement>
@@ -74,6 +76,12 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-test</artifactId>
                 <version>${spring-boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+                <scope>test</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
