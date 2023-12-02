@@ -26,6 +26,8 @@
 
         <spring-boot.version>3.2.0</spring-boot.version>
 
+        <spring-kafka.version>3.1.0</spring-kafka.version>
+
         <mysql-connector.version>8.0.33</mysql-connector.version>
         <commons-lang3.version>3.14.0</commons-lang3.version>
         <mybatis-spring-boot.version>3.0.3</mybatis-spring-boot.version>
@@ -89,6 +91,17 @@
                 <version>${dubbo-spring-boot.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.springframework.kafka</groupId>
+                <artifactId>spring-kafka</artifactId>
+                <version>${spring-kafka.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.curator</groupId>
+                <artifactId>curator-framework</artifactId>
+                <version>4.1.0</version>
+            </dependency>
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
