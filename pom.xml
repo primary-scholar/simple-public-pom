@@ -31,6 +31,7 @@
         <mysql-connector.version>8.0.33</mysql-connector.version>
         <commons-lang3.version>3.14.0</commons-lang3.version>
         <mybatis-spring-boot.version>3.0.3</mybatis-spring-boot.version>
+        <mybatis-generator-maven-plugin.version>mybatis-generator</mybatis-generator-maven-plugin.version>
         <dubbo-spring-boot.version>3.2.9</dubbo-spring-boot.version>
 
         <junit.version>4.13.2</junit.version>
@@ -166,6 +167,11 @@
                     <artifactId>maven-source-plugin</artifactId>
                     <version>${maven.source.plugin.version}</version>
                 </plugin>
+                <plugin>
+                    <groupId>org.mybatis.generator</groupId>
+                    <artifactId>mybatis-generator-maven-plugin</artifactId>
+                    <version>${mybatis-generator-maven-plugin.version}</version>
+                </plugin>
             </plugins>
         </pluginManagement>
     </build>
@@ -180,4 +186,5 @@
             <url>http://192.168.3.142:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
+
 </project>
