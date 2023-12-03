@@ -38,6 +38,7 @@
 
         <fastjson.version>2.0.43</fastjson.version>
         <aspectjweaver.version>1.9.20</aspectjweaver.version>
+        <lombok.version>1.18.30</lombok.version>
 
         <junit.version>4.13.2</junit.version>
     </properties>
@@ -133,6 +134,11 @@
                 <version>${fastjson.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+            </dependency>
 
             <dependency>
                 <groupId>org.springframework</groupId>
