@@ -25,12 +25,13 @@
         <maven.deploy.plugin.version>3.1.1</maven.deploy.plugin.version>
 
         <spring-boot.version>3.2.0</spring-boot.version>
+        <mybatis-spring-boot.version>3.0.3</mybatis-spring-boot.version>
+
 
         <spring-kafka.version>3.1.0</spring-kafka.version>
 
         <mysql-connector.version>8.0.33</mysql-connector.version>
         <commons-lang3.version>3.14.0</commons-lang3.version>
-        <mybatis-spring-boot.version>3.0.3</mybatis-spring-boot.version>
         <mybatis-generator-maven-plugin.version>1.4.2</mybatis-generator-maven-plugin.version>
         <dubbo-spring-boot.version>3.2.9</dubbo-spring-boot.version>
 
