@@ -21,6 +21,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
 
         <spring-boot.version>2.7.18</spring-boot.version>
+        <httpclient.version>4.5.14</httpclient.version>
         <commons-lang3.version>3.17.0</commons-lang3.version>
         <ulid-creator.version>5.2.3</ulid-creator.version>
         <lombok.version>1.18.30</lombok.version>
@@ -71,6 +72,11 @@
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
                 <version>${fastjson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpclient</artifactId>
+                <version>${httpclient.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
