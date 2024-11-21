@@ -21,6 +21,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
 
         <spring-boot.version>2.7.18</spring-boot.version>
+        <log4j.version>2.17.2</log4j.version>
         <httpclient.version>4.5.14</httpclient.version>
         <commons-lang3.version>3.17.0</commons-lang3.version>
         <ulid-creator.version>5.2.3</ulid-creator.version>
@@ -57,6 +58,11 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-log4j2</artifactId>
                 <version>${spring-boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j</artifactId>
+                <version>${log4j.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.f4b6a3</groupId>
