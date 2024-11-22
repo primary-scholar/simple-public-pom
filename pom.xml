@@ -28,7 +28,7 @@
         <transmittable-thread-local.version>2.7.0</transmittable-thread-local.version>
         <ulid-creator.version>5.2.3</ulid-creator.version>
         <lombok.version>1.18.30</lombok.version>
-        <fastjson.version>1.2.71</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
 
         <junit.version>4.13.2</junit.version>
     </properties>
