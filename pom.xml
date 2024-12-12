@@ -25,6 +25,7 @@
         <log4j.version>2.17.2</log4j.version>
         <httpclient.version>4.5.14</httpclient.version>
         <commons-lang3.version>3.17.0</commons-lang3.version>
+        <commons-collections4.version>4.4</commons-collections4.version>
         <transmittable-thread-local.version>2.7.0</transmittable-thread-local.version>
         <ulid-creator.version>5.2.3</ulid-creator.version>
         <lombok.version>1.18.30</lombok.version>
@@ -39,6 +40,11 @@
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-lang3</artifactId>
                 <version>${commons-lang3.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-collections4</artifactId>
+                <version>${commons-collections4.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
