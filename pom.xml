@@ -27,7 +27,6 @@
         <commons-lang3.version>3.17.0</commons-lang3.version>
         <commons-collections4.version>4.4</commons-collections4.version>
         <transmittable-thread-local.version>2.7.0</transmittable-thread-local.version>
-        <ulid-creator.version>5.2.3</ulid-creator.version>
         <lombok.version>1.18.30</lombok.version>
         <fastjson.version>1.2.83</fastjson.version>
 
@@ -86,11 +85,6 @@
                 <groupId>org.apache.logging.log4j</groupId>
                 <artifactId>log4j-slf4j-impl</artifactId>
                 <version>${log4j.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.f4b6a3</groupId>
-                <artifactId>ulid-creator</artifactId>
-                <version>${ulid-creator.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.projectlombok</groupId>
