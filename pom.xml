@@ -29,6 +29,8 @@
         <transmittable-thread-local.version>2.7.0</transmittable-thread-local.version>
         <lombok.version>1.18.30</lombok.version>
         <fastjson.version>1.2.83</fastjson.version>
+        <dubbo.version>3.2.14</dubbo.version>
+        <curator-framework.version>5.7.0</curator-framework.version>
 
         <junit.version>4.13.2</junit.version>
     </properties>
@@ -105,6 +107,16 @@
                 <groupId>org.apache.httpcomponents</groupId>
                 <artifactId>httpclient</artifactId>
                 <version>${httpclient.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo</artifactId>
+                <version>${dubbo.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.curator</groupId>
+                <artifactId>curator-framework</artifactId>
+                <version>${curator-framework.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
